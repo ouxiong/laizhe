@@ -27,7 +27,6 @@ import destine from './destine'
                 console.log("get sighthoteldetail data error")
             });
         },
-
         data () {
             return {
                 productInfo: [],
@@ -40,9 +39,8 @@ import destine from './destine'
             "detail-hotmessage" : hotmessage,
             "detail-gightmessage" : gightmessage,
             "detail-commentmessage" : commentmessage,
-            "detail-destine" : destine, 
+            "detail-destine" : destine
         }
-
     }
 </script>
 
